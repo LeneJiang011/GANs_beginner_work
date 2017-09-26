@@ -13,7 +13,6 @@ Problem caused by simpler functions:
 * Results: WGAN ignores the data distribution to model simple approximations.  
 
 Problem with Gradients:
----
 * Experiment: Vary the clipping threshold. Both G and D (critic) are 12-layer ReLU MLPs without BN.  
 * Results: Either vanishing or exploding gradients.  
 
@@ -36,12 +35,12 @@ Superiorty:
 * Discrete sampling achievements: first reported result without a supervised maximum-likelihood, only apply a softmax nonlinearity at the output.  
 NOTE that the difference lies in that the data distribution is discrete whereas the generator distribution is continuous.  
 
-##Future work  
+Future work  
 ---
 * Stronger modeling performance on large-scale image datasets and language.  
 * Adapt the penality term to standard GAN objective function.  
 
-##Code  
+Code  
 ---
 Struggling to understand...  
 

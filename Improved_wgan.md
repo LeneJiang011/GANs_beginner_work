@@ -1,12 +1,12 @@
 #Improved Training of Wasserstein GANs  
 [paper](https://arxiv.org/abs/1704.00028)   [code](https://github.com/igul222/improved_wgan_training)  
 
-##Introduction
+Introduction
 ---
 * WGAN uses weight clipping to enforce a Lipschitz constraint on the critic (discriminator), which can lead to pathological behavior.
 * Propose an alternative: Gradient Penalty.  
 
-##Difficulties with weight constraints  
+Difficulties with weight constraints  
 ---
 Problem caused by simpler functions:
 * Experiment: Generator distribution fixed at real distribution plus unit-variance Gaussian noise. Omit batch normalization in the critic. 
@@ -17,7 +17,7 @@ Problem with Gradients:
 * Experiment: Vary the clipping threshold. Both G and D (critic) are 12-layer ReLU MLPs without BN.  
 * Results: Either vanishing or exploding gradients.  
 
-##Gradient Penalty
+Gradient Penalty
 ---
 An alternative way to enforce the Lipscgits constraint: constrain the gradient norm of the critic's output with respect to its input.  
 Settings:  
@@ -26,7 +26,7 @@ Settings:
 * Omit BN in the critic. Recommend layer normalization as a replacement.
 * Two-sided penalty: from both below 1 and above 1 (towards 1)
 
-##Experiments  
+Experiments  
 ---
 WGAN with gradient penality: replace any BN in the D with layer normalization.  
 Superiorty:  
@@ -45,6 +45,6 @@ NOTE that the difference lies in that the data distribution is discrete whereas 
 ---
 Struggling to understand...  
 
-===
+---
 Thanks for reading!
 

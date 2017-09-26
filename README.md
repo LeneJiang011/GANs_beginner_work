@@ -1,3 +1,3 @@
 # GANs_beginner_work
 
-Paper Summaries & code links
+Paper Summaries & Code Links

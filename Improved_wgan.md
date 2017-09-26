@@ -1,5 +1,6 @@
 # Improved Training of Wasserstein GANs  
-[paper](https://arxiv.org/abs/1704.00028)   [code](https://github.com/igul222/improved_wgan_training)  
+* [paper](https://arxiv.org/abs/1704.00028)   
+* [code](https://github.com/igul222/improved_wgan_training)  
 
 ## Introduction
 * WGAN uses weight clipping to enforce a Lipschitz constraint on the critic (discriminator), which can lead to pathological behavior.
@@ -15,7 +16,6 @@
 * Results: Either vanishing or exploding gradients.  
 
 ## Gradient Penalty
----
 An alternative way to enforce the Lipscgits constraint: constrain the gradient norm of the critic's output with respect to its input.  
 ### Settings:  
 * Sample the penalized distribution along straight lines between pair points sampled from the data distribution and generator distribution.

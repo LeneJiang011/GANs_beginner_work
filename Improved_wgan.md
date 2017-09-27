@@ -36,9 +36,6 @@ NOTE that the difference lies in that the data distribution is discrete whereas 
 * Stronger modeling performance on large-scale image datasets and language.  
 * Adapt the penality term to standard GAN objective function.  
 
-## Code  
-Struggling to understand...  
-
 ---
 Thanks for reading!
 

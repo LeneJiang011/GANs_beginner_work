@@ -5,6 +5,7 @@
 * Current approaches only used simple conditioning varibles, and did not allow for controlling where objects appear in the scene.  
 * Proposed model learns to perform location and content-controllable image synthesis.  
 
+
 ## Generative Adversarial What-Where Networks  
 bounding-box- and keypoint-conditional GAWWN  
 ### Bounding-box-conditional text-to-image model  
@@ -15,5 +16,11 @@ bounding-box- and keypoint-conditional GAWWN
 ### Conditional keypoint generation model  
 * assign each object part observed and unobserved as a gating mechanism.  
 
-## Experiments  
 
+## Experiments  
+* Eecode the captions using a pre-trained char-CNN-CRU.  
+* Average four randomly-sampled caption encodings.  
+* Training: ADAM solver with batch size 16 and learning rate 0.0002.  
+
+## Discussion  
+Showed how to generate images conditioned on both informal text descriptions and object locations.  

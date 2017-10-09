@@ -12,7 +12,7 @@ bounding-box- and keypoint-conditional GAWWN
 * Concatenate the coarse spatial structure with the noise vector *z*.  
 * Generator branches into local and global processing stages.  
 ### Keypoint-conditional text-to-image model  
-* The keypoint tensor is fed into several stafes of the network. Noise-text-keypoint vector.  
+* The keypoint tensor is fed into several stages of the network. Noise-text-keypoint vector.  
 ### Conditional keypoint generation model  
 * assign each object part observed and unobserved as a gating mechanism.  
 

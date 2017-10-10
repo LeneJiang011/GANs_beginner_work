@@ -1,6 +1,7 @@
 # Conditional Generative Adversarial Nets  
 * [[paper]](https://arxiv.org/abs/1411.1784)   
-* [[model]](https://github.com/hwalsuklee/tensorflow-generative-model-collections/blob/master/CGAN.py)
+* [[model]](https://github.com/hwalsuklee/tensorflow-generative-model-collections/blob/master/CGAN.py)  
+
 Condition on both G and D. Can generate MNIST digits conditioned on class labels.  
 
 ## Introduction  

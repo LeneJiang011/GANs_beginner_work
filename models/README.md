@@ -1,6 +1,6 @@
 # models  
 ## Environment  
-* deepin 13.4  
+* deepin 15.4.3  
 * tensorflow 1.3.0  
 * Jupyter  
 
